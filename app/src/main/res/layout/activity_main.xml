@@ -1,0 +1,46 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="50dp"
+        android:text="получить a b c"
+        android:onClick="clickToBtn"/>
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="120dp"
+        android:text="получить массив"
+        android:onClick="pushToBtn"/>
+
+    <EditText
+        android:id="@+id/edittext_1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="190dp"
+        android:text=""
+        android:textSize="20sp"
+        android:background="#c1cccc"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:hint="One Char"
+        />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="250dp"
+        android:text="отправить данные"
+        android:onClick="doToBtn"/>
+
+</AbsoluteLayout>
